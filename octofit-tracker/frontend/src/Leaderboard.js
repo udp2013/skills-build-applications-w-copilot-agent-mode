@@ -7,6 +7,7 @@ function Leaderboard() {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
+    // Use BASE_URL for API calls
     fetch(`${BASE_URL}/api/leaderboard/`)
       .then(response => response.json())
       .then(data => setLeaderboard(data))

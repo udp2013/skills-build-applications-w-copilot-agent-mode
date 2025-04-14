@@ -7,6 +7,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
+    // Use BASE_URL for API calls
     fetch(`${BASE_URL}/api/activities/`)
       .then(response => response.json())
       .then(data => setActivities(data))

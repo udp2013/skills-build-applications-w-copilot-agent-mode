@@ -3,6 +3,7 @@ import './App.css';
 
 const BASE_URL = "https://animated-umbrella-x54pv4vq66r29v4x-8000.app.github.dev";
 
+// Use BASE_URL for API calls
 function Workouts() {
   const [workouts, setWorkouts] = useState([]);
 
