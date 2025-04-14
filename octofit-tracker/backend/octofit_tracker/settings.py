@@ -145,3 +145,6 @@ CORS_ALLOW_HEADERS = [
     'authorization',
     'x-csrftoken',
 ]
+
+# Add the codespace Django REST API endpoint suffix
+BASE_URL = "https://animated-umbrella-x54pv4vq66r29v4x-8000.app.github.dev"
